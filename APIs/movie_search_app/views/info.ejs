@@ -1,0 +1,8 @@
+<p><img src="<%= data["Poster"] %>" alt=""></p>
+<% for (var key in data) { %>
+    <% if(data.hasOwnProperty(key)) { %>
+        <p><%= key %> :- <%=data[key] %></p>
+    <% } %>
+<% } %>
+
+<h3>  <a href="/">Search again</a> </h3>
